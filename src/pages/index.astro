@@ -12,7 +12,7 @@ import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
 		<main>
 			<h1>{SITE_TITLE}</h1>
 
-		</main>
+
     <!-- 1. The <iframe> (and video player) will replace this <div> tag. -->
     <div id="player"></div>
 
@@ -29,9 +29,9 @@ import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
       var player;
       function onYouTubeIframeAPIReady() {
         player = new YT.Player('player', {
-          height: '390',
-          width: '640',
-          videoId: 'M7lc1UVf-VE',
+          height: '550',
+          width: '800',
+          videoId: 'tK1P_YbJMkw',
           playerVars: {
             'playsinline': 1
           },
@@ -61,5 +61,6 @@ import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
         player.stopVideo();
       }
     </script>
+	</main>
 	</body>
 </html>
